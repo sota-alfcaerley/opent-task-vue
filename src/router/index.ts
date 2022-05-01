@@ -16,6 +16,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/OpenTask/open-task",
+    name: "open-task",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/OpenTask/open-task.vue"),
+  },
 ];
 
 const router = createRouter({
