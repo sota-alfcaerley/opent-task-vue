@@ -17,10 +17,10 @@ const routes: Array<RouteRecordRaw> = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: "/OpenTask/open-task",
-    name: "open-task",
+    path: "/OpenTask",
+    name: "OpenTask",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/OpenTask/open-task.vue"),
+      import(/* webpackChunkName: "about" */ "../views/OpenTask/OpenTask.vue"),
   },
 ];
 
